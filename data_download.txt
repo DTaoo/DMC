@@ -1,0 +1,9 @@
+Training dataset£º
+Flickr_video: http://soundnet.csail.mit.edu/
+
+Audio Testing dataset£º
+DCASE 2014: http://soundnet.csail.mit.edu/
+ESC-50: http://soundnet.csail.mit.edu/
+
+Sound localization dataset£º
+https://drive.google.com/open?id=1P93CTiQV71YLZCmBbZA0FvdwFxreydLt
