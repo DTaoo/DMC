@@ -8,18 +8,6 @@ from keras.layers import dot
 
 
 class Cosine(Layer):
-    '''CCA layer is used compute the CCA objective
-    # Input shape
-        Arbitrary. Use the keyword argument `input_shape`
-        (tuple of integers, does not include the samples axis)
-        when using this layer as the first layer in a model.
-    # Output shape
-        Same shape as the input.
-    # Arguments
-        output_dim: output dimension, default 1, i.e., correlation coefficient
-        use_all_singular_value: if use the top-k singular values
-        cca_space_dim: the number of singular values, i.e., k
-    '''
 
     def __init__(self, output_dim=1,  **kwargs):
         self.output_dim = output_dim
